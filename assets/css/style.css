@@ -86,6 +86,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Title */
+#search>.container {
+	overflow: visible;
+}
+.container {
+	overflow: hidden;
+}
 .container>h2.title, .bottom-header h2.title {
 	font-family: 'Roboto Slab';
 	font-weight: bold;
@@ -313,6 +319,9 @@ h1, h2, h3, h4, h5, h6 {
 	color: #333;
 	margin: 0px 25px;
 	font-family: FontAwesome;
+}
+.breadcrumb>li {
+	margin-bottom: 5px;
 }
 .breadcrumb>li>a, .breadcrumb>li.active {
 	font-family: 'Roboto';
@@ -974,5 +983,8 @@ ul.contact-info>li {
 	}
 	.navbar-toggle {
         margin-top: 20px;
+    }
+    .btn-label {
+    	margin-bottom: 5px;
     }
 }
