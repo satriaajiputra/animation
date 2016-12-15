@@ -89,9 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 #search>.container {
 	overflow: visible;
 }
-.container {
-	overflow: hidden;
-}
 .container>h2.title, .bottom-header h2.title {
 	font-family: 'Roboto Slab';
 	font-weight: bold;
@@ -215,7 +212,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .container {
 	max-width: 1150px;
-	padding: 0;
 }
 .logo {
 	height: auto;
@@ -251,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 70px !important;
 }
 .bottom-header h1.title {
-	font-size: 50px;
+	font-size: 45px;
 	line-height: 60px;
 }
 .bottom-header>h2.title {
@@ -280,8 +276,8 @@ h1, h2, h3, h4, h5, h6 {
 	height: 273px;
 	position: absolute;
 	top: 22px;
-	left: 63%;
-	transform: translate(-63%, 0%);
+	left: 70%;
+	transform: translate(-70%, 0%);
 }
 .video>iframe {
 	width: 100%;
@@ -881,6 +877,9 @@ ul.contact-info>li {
 	}
 	.container {
 		max-width: 95%;
+	}
+	.portfolio-item {
+		width: 100%;
 	}
 }
 @media screen and (max-width: 768px) {
